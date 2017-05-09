@@ -18,3 +18,69 @@
 a{
   color: #648fe0;
 }
+
+@charset "UTF-8";
+
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../Imagens/main12.jpg');
+}
+
+header .header-content { /*Centraliza os elementos*/
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+
+header .header-logo { /*Dimensiona a logo*/
+	width: 543px;
+	height: 232px;
+}
+
+header .header-lema { /*Configuracoes do lema*/
+	color: #b8163b; /*rosa avermelhado*/
+	font-family: Corbel; /*fonte utilizada em posts na pagina do Facebook*/
+	font-size: 30px;
+	margin-bottom: 30px; /*Distancia entre o lema e o botao*/
+}
+
+header .header-button{ /*Configuracoes do botao*/
+	display: block;
+	margin-top: 10px;
+	font-family: 'Comfortaa'; /*fonte da logo*/
+	background-color: transparent; 
+ /* border: 1px;
+	border-style: solid;
+	border-color: #ffd37c;*/ 
+    color: #ffd37c; /*rosinha*/
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	box-shadow: 8px 10px 5px #1C1C1C; /*sobra cinza escuro*/
+
+}
+
+.hvr-grow { /*efeito do cursor sobre o botao*/
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  text-decoration: none;
+  color: #f38e70; /*bege*/
+}
