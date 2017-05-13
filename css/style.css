@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+      font-family: "adlanta";
+      src: url("../fonts/Adlanta.otf");
+}
+
 .nav{
   font-family: serif;
   float:right;
@@ -84,3 +89,35 @@ header .header-button{ /*Configuracoes do botao*/
   text-decoration: none;
   color: #f38e70; /*bege*/
 }
+
+/* Parceiros */
+
+.parceiros{
+  text-align: center;
+}
+hr.parc{
+  margin-top: -1.8%;
+  height: 4px;
+  background-color: #b8163b;
+  width: 40%;
+}
+h2.parc{
+  font-family: "adlanta";
+  font-size: 40px;
+  font-weight: bold;
+}
+.logosparc{
+  margin-top: 3%;
+}
+
+
+
+
+/*
+Cores:
+
+#ffd37c bege
+#f38e70 rosinha
+#b8163b rosa avermelhado
+#7a1235 vinho
+*/
