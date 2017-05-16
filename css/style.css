@@ -1,80 +1,107 @@
 @charset "UTF-8";
 
-@font-face {
-      font-family: "adlanta";
-      src: url("../fonts/Adlanta.otf");
+/* Classes correspondentes a barra navegação */
+.navbar-custom {
+	text-transform: uppercase;
+	font-family: 'Comfortaa';
+	background-color: #000;
 }
-
-.nav{
-  font-family: serif;
-  float:right;
-  font-weight: bolder;
-
-
+.navbar-custom .navbar-toggle{
+	background-color: rgba(255,255,255,.2);
+	font-size: 12px;
 }
-
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-  color: #fff;
-  background-color: #f38e70;
+.navbar-custom .nav li a:active;
+.navbar-custom .nav li a:focus;
+.navbar-custom .nav li a:hover {
+	background-color: transparent;
+	outline: 0;
 }
-
-a{
-  color: #648fe0;
+.navbar-custom .navbar-toggle:focus {
+	outline: 0;
 }
-
-@charset "UTF-8";
-
+.navbar-custom .navbar-brand:focus {
+	outline: 0; 
+}
+.navbar-custom a {
+	color: #fff;
+}
+.navbar-custom .nav li a {
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+.navbar-custom .nav li a:hover {
+	color: #7a1235; /*vinho*/
+}
+.navbar-custom .nav li.active{
+	outline:0
+}
+.navbar-custom .nav li.active a{
+	color: #7a1235;
+	background-color:rgba(255,255,255,.3)
+}
+.navbar-custom .nav li.active a:hover{
+	color: #f38e70; /*rosinha*/
+}
+@media (min-width:768px){	
+.navbar-custom{
+	padding: 20px 0;
+	border-bottom: none;
+	letter-spacing: 1px;
+	background:0 0;
+	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	transition: background .5s ease-in-out,padding .5s ease-in-out
+}
+.navbar-custom.top-nav-collapse{
+	padding: 0;
+	background: #000;
+	border-bottom: 1px solid rgba(255,255,255,.3);
+}
+}
+.nav-logo { 
+	width: 135px;
+	height: 45px;
+}
+/*Inicio*/
 header {
   position: relative;
   width: 100%;
-  min-height: auto;
+  min-height: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../Imagens/main12.jpg');
+  background-image: url('../Imagens/main1.jpg');
 }
-
-header .header-content { /*Centraliza os elementos*/
+/*Centraliza os elementos*/
+header .header-content { 
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
 }
-
-header .header-logo { /*Dimensiona a logo*/
-	width: 543px;
-	height: 232px;
+/*Dimensiona a logo*/
+header .header-logo { 
+	width: 650px;
+	height: 280px;
+	margin-top: 50px;
+	max-width:100%;
+	height:auto;
 }
-
-header .header-lema { /*Configuracoes do lema*/
-	color: #b8163b; /*rosa avermelhado*/
-	font-family: Corbel; /*fonte utilizada em posts na pagina do Facebook*/
+/*sobreposição transparente do background*/
+.overlay{
+	background-color: rgba(253, 211, 123, 0.3); /*bege*/
+	height: 700px;
+}
+ /*Configuracoes 'Empresa Jr.'*/
+header .header-ej {
+	color: #7a1235;
+	font-family: 'Comfortaa'; /*fonte utilizada em posts na pagina do Facebook*/
 	font-size: 30px;
-	margin-bottom: 30px; /*Distancia entre o lema e o botao*/
 }
-
-header .header-button{ /*Configuracoes do botao*/
-	display: block;
-	margin-top: 10px;
-	font-family: 'Comfortaa'; /*fonte da logo*/
-	background-color: transparent;
- /* border: 1px;
-	border-style: solid;
-	border-color: #ffd37c;*/
-    color: #ffd37c; /*rosinha*/
-    padding: 15px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-	box-shadow: 8px 10px 5px #1C1C1C; /*sobra cinza escuro*/
-
-}
-
+/*-----------------------------------------------------------*/
 .hvr-grow { /*efeito do cursor sobre o botao*/
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -89,7 +116,7 @@ header .header-button{ /*Configuracoes do botao*/
   text-decoration: none;
   color: #f38e70; /*bege*/
 }
-
+/*-----------------------------------------------------------*/
 /* Parceiros */
 
 .parceiros{
