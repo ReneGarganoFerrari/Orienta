@@ -61,10 +61,10 @@ header .header-button{ /*Configuracoes do botao*/
 	display: block;
 	margin-top: 10px;
 	font-family: 'Comfortaa'; /*fonte da logo*/
-	background-color: transparent; 
+	background-color: transparent;
  /* border: 1px;
 	border-style: solid;
-	border-color: #ffd37c;*/ 
+	border-color: #ffd37c;*/
     color: #ffd37c; /*rosinha*/
     padding: 15px 40px;
     text-align: center;
@@ -110,7 +110,48 @@ h2.parc{
   margin-top: 3%;
 }
 
+/* Sobre Nós */
 
+.sobrenos{
+  text-align: center;
+  padding: 60px;
+
+}
+
+h2.sobnos{
+  font-family: "adlanta";
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p.sn{
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: "arial";
+  color: #b8163b;
+}
+hr.sob{
+  margin-top: -1.8%;
+  height: 4px;
+  background-color: #b8163b;
+  width: 40%;
+}
+
+p{
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: "arial";
+
+
+}
+
+.btn{
+  font-size:25px;
+}
 
 
 /*
