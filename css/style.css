@@ -60,7 +60,7 @@
 }
 }
 .nav-logo {
-	width: 135px;
+	width: 45px;
 	height: 45px;
 }
 /*Inicio*/
@@ -68,8 +68,11 @@ header {
   position: relative;
   width: 100%;
   min-height: 100%;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
