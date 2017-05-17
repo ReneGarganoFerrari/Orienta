@@ -162,11 +162,15 @@ p{
 }
 
 /* Nossos Serviços */
-
+.altura{
+	height: 300px;
+}
 .nossos_servicos{
   text-align: center;
 }
-
+.carousel-inner {
+    height: 100%;
+}
 .tittle{
 	font-family: "adlanta";
 	font-size: 40px;
