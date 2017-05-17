@@ -20,7 +20,7 @@
 	outline: 0;
 }
 .navbar-custom .navbar-brand:focus {
-	outline: 0; 
+	outline: 0;
 }
 .navbar-custom a {
 	color: #fff;
@@ -43,7 +43,7 @@
 .navbar-custom .nav li.active a:hover{
 	color: #f38e70; /*rosinha*/
 }
-@media (min-width:768px){	
+@media (min-width:768px){
 .navbar-custom{
 	padding: 20px 0;
 	border-bottom: none;
@@ -59,7 +59,7 @@
 	border-bottom: 1px solid rgba(255,255,255,.3);
 }
 }
-.nav-logo { 
+.nav-logo {
 	width: 135px;
 	height: 45px;
 }
@@ -76,14 +76,14 @@ header {
   background-image: url('../Imagens/main1.jpg');
 }
 /*Centraliza os elementos*/
-header .header-content { 
+header .header-content {
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
 }
 /*Dimensiona a logo*/
-header .header-logo { 
+header .header-logo {
 	width: 650px;
 	height: 280px;
 	margin-top: 50px;
@@ -117,6 +117,79 @@ header .header-ej {
   color: #f38e70; /*bege*/
 }
 /*-----------------------------------------------------------*/
+
+/* Sobre Nós */
+
+.sobrenos{
+	text-align: center;
+	padding: 60px;
+
+}
+
+h2.sobnos{
+	font-family: "adlanta";
+	font-size: 40px;
+	font-weight: bold;
+}
+
+p.sn{
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: justify;
+	font-family: "arial";
+	color: #b8163b;
+}
+hr.sob{
+	margin-top: -1.8%;
+	height: 4px;
+	background-color: #b8163b;
+	width: 40%;
+}
+
+p{
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: justify;
+	font-family: "arial";
+
+
+}
+
+.btn{
+	font-size:25px;
+}
+
+/* Nossos Serviços */
+
+.nossos_servicos{
+  text-align: center;
+}
+
+.tittle{
+	font-family: "adlanta";
+	font-size: 40px;
+	font-weight: bold;
+}
+
+hr.barrinha{
+  height: 4px;
+  background-color: #b8163b;
+  width: 40%;
+}
+
+.tittle_slider{
+	text-align: justify;
+	font-weight: bold;
+	margin-bottom: 2%;
+}
+
+.texto_slider{
+	text-align: justify;
+	margin-bottom: 70%;
+}
+
 /* Parceiros */
 
 .parceiros{
@@ -137,48 +210,6 @@ h2.parc{
   margin-top: 3%;
 }
 
-/* Sobre Nós */
-
-.sobrenos{
-  text-align: center;
-  padding: 60px;
-
-}
-
-h2.sobnos{
-  font-family: "adlanta";
-  font-size: 40px;
-  font-weight: bold;
-}
-
-p.sn{
-  margin-bottom: 20px;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: justify;
-  font-family: "arial";
-  color: #b8163b;
-}
-hr.sob{
-  margin-top: -1.8%;
-  height: 4px;
-  background-color: #b8163b;
-  width: 40%;
-}
-
-p{
-  margin-bottom: 20px;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: justify;
-  font-family: "arial";
-
-
-}
-
-.btn{
-  font-size:25px;
-}
 
 
 /*
