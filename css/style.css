@@ -38,7 +38,7 @@
 }
 .navbar-custom .nav li.active a{
 	color: #7a1235;
-	background-color:rgba(255,255,255,.3)
+	background-color:rgba(255,255,255,.4)
 }
 .navbar-custom .nav li.active a:hover{
 	color: #f38e70; /*rosinha*/
@@ -63,6 +63,11 @@
 	width: 45px;
 	height: 45px;
 }
+
+.icon-color{
+	background-color: white;
+}
+
 /*Inicio*/
 header {
   position: relative;
