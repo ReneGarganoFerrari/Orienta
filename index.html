@@ -32,7 +32,7 @@
             <div class="collapse navbar-collapse navbar-right navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li role="presentation" class="active"><a href="#">INÍCIO</a></li>
-                    <li class="page-scroll" role="presentation"><a href="#">SOBRE NÓS</a></li>
+                    <li class="page-scroll" role="presentation"><a href="#sobrenos">SOBRE NÓS</a></li>
 					<li class="page-scroll" role="presentation"><a href="#">NOSSOS SERVIÇOS</a></li>
 					<li class="page-scroll" role="presentation"><a href="#">PARCEIROS</a></li>
 					<li class="page-scroll" role="presentation"><a href="#">CONTATO</a></li>
@@ -54,31 +54,31 @@
         </div>
     </header><!-- Final da secao Inicio -->
 
-  <div class="sobrenos">
+  <div class="sobrenos" id="sobrenos">
 	  <div class="container">
-		  <h2 class="sobnos">Sobre Nós</h2>
+		  <h2 class="sobnos" >Sobre Nós</h2>
 		  <img src="Imagens/cerebro.png" alt="iconeSobreNos" width="35">
 		  <hr class="sob">
-		  <div class="col-md-8 col-md-offset-2">
-		    <p class="sn">&emsp;&emsp;Inaugurada em Agosto de 2015, a Orienta Jr. surgiu por iniciativa dos estudantes do curso de Psicologia como forma de
-				diversificar as experiências para além do curso de Graduação. Visa expandir a aplicação e visibilidade da Psicologia para além da
-				clínica particular por meio de serviços voltados a outras Empresas Juniores, às organizações, escolas e à comunidade, bem como através
-				da promoção de eventos e workshops relacionados ao campo da Psicologia Organizacional.
-			  <br></p>
-				<p class="sn">&emsp;&emsp;A Orienta Jr. oferece assessoria em processos de recrutamento e seleção, de avaliação de clima e cultura organizacional e de
-					desenvolvimento de carreira. Através de seus serviços, a Orienta Jr. almeja promover o bem-estar da organização, de seus colaboradores
-					e das relações de trabalho.</p>
-				<div class="col-md-3">
-					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#missao">Missão</button>
-				</div>
-				<div class="col-md-3 ">
-					<button type="button" class="btn btn-success" data-toggle="modal" data-target="#visao">Visão</button>
-				</div>
-				<div class="col-md-3">
-					<button type="button" class="btn btn-info" data-toggle="modal" data-target="#mej">O MEJ</button>
-				</div>
-				<div class="col-md-3">
-					<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#valores">Valores</button>
+			<div class="row">
+			  <div class="col-md-8 col-md-offset-2">
+			    <p class="sn">&emsp;&emsp;Inaugurada em Agosto de 2015, a Orienta Jr. surgiu por iniciativa dos estudantes do curso de Psicologia como forma de
+					diversificar as experiências para além do curso de Graduação. Visa expandir a aplicação e visibilidade da Psicologia para além da
+					clínica particular por meio de serviços voltados a outras Empresas Juniores, às organizações, escolas e à comunidade, bem como através
+					da promoção de eventos e workshops relacionados ao campo da Psicologia Organizacional.
+				  <br></p>
+					<p class="sn">&emsp;&emsp;A Orienta Jr. oferece assessoria em processos de recrutamento e seleção, de avaliação de clima e cultura organizacional e de
+						desenvolvimento de carreira. Através de seus serviços, a Orienta Jr. almeja promover o bem-estar da organização, de seus colaboradores
+						e das relações de trabalho.</p>
+					<div class="col-md-4 col-md-offset-2">
+						<button type="button" class="btn btn-primary hvr-grow " data-toggle="modal" data-target="#empresa" >A EMPRESA</button>
+					</div>
+					<div class="col-md-4">
+						<button type="button" class="btn btn-success hvr-grow" data-toggle="modal" data-target="#mej">O MEJ</button>
+					</div>
+					<div class="col-md-4">
+					</div>
+
+
 				</div>
 			</div>
 		</div>
@@ -168,44 +168,44 @@
 
 
 	<!-- Modal -->
-	        <div class="modal fade" id="missao" role="dialog" tabindex="-1">
+
+	<div class="modal fade" id="empresa" role="dialog" tabindex="-1">
 	            <div class="modal-dialog modal-lg modal-sm">
 	                <div class="modal-content modal-popup">
 	                    <div class="modal-header">
 	                        <button type="button" class="close close-link" data-dismiss="modal"><span aria-hidden="true">×</span></button>
-	                        <h4 class="modal-title text-center">Missão</h4>
+	                        <h4 class="modal-title text-center">A EMPRESA</h4>
 	                    </div>
 	                    <div class="modal-body">
 	                        <div class="row">
 	                            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
 	                                <div class="row">
-	                                    <div class="col-lg-12 col-md-12">
-	                                        <p class="text-justify">&emsp;&emsp;Expandir horizontes; aproximar pessoas.</p>
+	                                    <div class="col-lg-4 col-md-4 col-xs-12">
+	                                        <div class="panel panel-default">
+	                                          <div class="panel-heading text-center"><b><span class="fa fa-fw fa-rocket"></span>&nbsp;MISSÃO</b></div>
+	                                          <div class="panel-body text-center">Expandir horizontes; aproximar pessoas.</div>
+	                                        </div>
 	                                    </div>
-
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-
-					<div class="modal fade" id="visao" role="dialog" tabindex="-1">
-	            <div class="modal-dialog modal-lg modal-sm">
-	                <div class="modal-content modal-popup">
-	                    <div class="modal-header">
-	                        <button type="button" class="close close-link" data-dismiss="modal"><span aria-hidden="true">×</span></button>
-	                        <h4 class="modal-title text-center">Visão</h4>
-	                    </div>
-	                    <div class="modal-body">
-	                        <div class="row">
-	                            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-	                                <div class="row">
-	                                    <div class="col-lg-12 col-md-12">
-	                                        <p class="text-justify">&emsp;&emsp;Proporcionar experiências transformadoras para os membros da empresa e impactar positivamente a sociedade.</p>
+	                                    <div class="col-lg-4 col-md-4 col-xs-12">
+	                                        <div class="panel panel-default">
+	                                          <div class="panel-heading text-center"><b><span class="fa fa-fw fa-eye"></span>&nbsp;VISÃO</b></div>
+	                                          <div class="panel-body text-center ">Proporcionar experiências transformadoras para os membros da empresa e impactar positivamente a sociedade.</div>
+	                                        </div>
 	                                    </div>
-
+	                                    <div class="col-lg-4 col-md-4 col-xs-12">
+	                                        <div class="panel panel-default">
+	                                          <div class="panel-heading text-center"><b><span class="fa fa-fw fa-heart"></span>&nbsp;VALORES</b></div>
+	                                          <div class="panel-body">
+	                                              <ul>
+	                                                  <li>Ética</li>
+	                                                  <li>Persistência</li>
+	                                                  <li>Competência</li>
+	                                                  <li>Coragem</li>
+	                                                  <li>Empreendedorismo</li>
+	                                              </ul>
+	                                          </div>
+	                                        </div>
+	                                    </div>
 	                                </div>
 	                            </div>
 	                        </div>
@@ -232,42 +232,19 @@
 	                        <div class="row row-padding">
 	                            <div class="col-lg-12 text-center">
 	                                <div class="col-lg-4">
-	                                    <a href="http://brasiljunior.org.br/">
+	                                    <a href="http://brasiljunior.org.br/" target="_blank">
 	                                        <img class="logo" src="Imagens/bj.png" title="Confederação Brasileira de Empresas Juniores">
 	                                    </a>
 	                                </div>
 	                                <div class="col-lg-4">
-	                                    <a href="http://fejers.org.br/">
+	                                    <a href="http://fejers.org.br/" target="_blank">
 	                                        <img class="logo" src="Imagens/fejers.png" title="Federação das Empresas Juniores do Estado do Rio Grande do Sul">
 	                                    </a>
 	                                </div>
 	                                <div class="col-lg-4">
-	                                    <a href="http://ufsm.br/nejsm/">
+	                                    <a href="http://ufsm.br/nejsm/" target="_blank">
 	                                        <img class="logo" src="Imagens/nejsm.png" title="Núcleo de Empresas Juniores de Santa Maria">
 	                                    </a>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-
-					<div class="modal fade" id="valores" role="dialog" tabindex="-1">
-	            <div class="modal-dialog modal-lg modal-sm">
-	                <div class="modal-content modal-popup">
-	                    <div class="modal-header">
-	                        <button type="button" class="close close-link" data-dismiss="modal"><span aria-hidden="true">×</span></button>
-	                        <h4 class="modal-title text-center">Valores</h4>
-	                    </div>
-	                    <div class="modal-body">
-	                        <div class="row">
-	                            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-	                                <div class="row">
-	                                    <div class="col-lg-12 col-md-12">
-	                                        <p class="text-justify">&emsp;&emsp;Ética, Persistência, Competência, Coragem e Empreendedorismo.</p>
-	                                    </div>
-
 	                                </div>
 	                            </div>
 	                        </div>

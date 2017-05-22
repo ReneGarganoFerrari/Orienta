@@ -134,7 +134,7 @@ header .header-ej {
 }
 
 h2.sobnos{
-	font-family: "adlanta";
+	font-family: "Comfortaa";
 	font-size: 40px;
 	font-weight: bold;
 }
@@ -160,13 +160,16 @@ p{
 	line-height: 1.5;
 	text-align: justify;
 	font-family: "arial";
-
-
 }
 
 .btn{
 	font-size:25px;
 }
+
+.modal{
+	color: #000000;
+}
+
 
 /* Nossos Serviços */
 .altura{
@@ -179,7 +182,7 @@ p{
     height: 100%;
 }
 .tittle{
-	font-family: "adlanta";
+	font-family: "Comfortaa";
 	font-size: 40px;
 	font-weight: bold;
 }
@@ -216,7 +219,7 @@ hr.parc{
   width: 40%;
 }
 h2.parc{
-  font-family: "adlanta";
+  font-family: "Comfortaa";
   font-size: 40px;
   font-weight: bold;
 }
