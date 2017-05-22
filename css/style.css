@@ -131,7 +131,6 @@ header .header-ej {
 .sobrenos{
 	text-align: center;
 	padding: 60px;
-
 }
 
 h2.sobnos{
@@ -196,11 +195,13 @@ hr.barrinha{
 	text-align: justify;
 	font-weight: bold;
 	margin-bottom: 2%;
+	text-shadow:  0 2px 6px rgba(0,0,0,.6);
 }
 
 .texto_slider{
 	text-align: justify;
 	margin-bottom: 50%;
+	text-shadow:  0 2px 6px rgba(0,0,0,.6);
 }
 
 /* Parceiros */
@@ -227,7 +228,7 @@ h2.parc{
   body {
   	font-size: 15px;
   	height: 100%;
-  	color: #ffd37c; 
+  	color: #ffd37c;
 }
    .texto {
    	color: #ffd37c;
