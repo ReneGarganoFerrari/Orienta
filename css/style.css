@@ -43,22 +43,7 @@
 .navbar-custom .nav li.active a:hover{
 	color: #f38e70; /*rosinha*/
 }
-@media (min-width:768px){
-.navbar-custom{
-	padding: 20px 0;
-	border-bottom: none;
-	letter-spacing: 1px;
-	background:0 0;
-	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-	-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-	transition: background .5s ease-in-out,padding .5s ease-in-out
-}
-.navbar-custom.top-nav-collapse{
-	padding: 0;
-	background: #000;
-	border-bottom: 1px solid rgba(255,255,255,.3);
-}
-}
+
 .nav-logo {
 	width: 45px;
 	height: 45px;
@@ -67,6 +52,34 @@
 .icon-color{
 	background-color: white;
 }
+
+@media screen and (min-width:768px){
+  .navbar-custom{
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background:0 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out
+  }
+  .navbar-custom.top-nav-collapse{
+    padding: 0;
+    background: #000;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+  }
+}
+@media screen and (max-width: 991px){
+  .nav-logo{
+    margin-right: 10%;
+  }
+}
+@media screen and (max-width: 768px){
+  .nav-logo{
+    margin-left: 5%;
+  }
+}
+
 
 /*Inicio*/
 header {
@@ -173,7 +186,7 @@ p{
 
 /* Nossos Serviços */
 .altura{
-	height: 600px;
+	height: 100%;
 }
 .nossos_servicos{
   text-align: center;
