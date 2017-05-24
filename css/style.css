@@ -211,6 +211,7 @@ hr.barrinha{
 
 .parceiros{
   text-align: center;
+  padding-bottom: 30px;
 }
 hr.parc{
   margin-top: -1.8%;
@@ -234,6 +235,7 @@ h2.parc{
 }
 
 
+
   body {
   	font-size: 15px;
   	height: 100%;
@@ -252,11 +254,16 @@ h2.parc{
    	text-align: center;
    	color:#ffd37c;
    	/*font-size: 36px;*/
- 	margin-bottom:16px;
- 	padding-top: 30px;
+ 	  padding-top: 30px;
+   }
+   .contato a:hover{
+      text-decoration: none;
+      color: #ffd37c;
    }
    .contato1 {
-    font-size: 36px;
+    font-family: "Comfortaa";
+    font-size: 40px;
+    font-weight: bold;
    }
    .texto1 {
    	color: #ffd37c;
@@ -272,7 +279,7 @@ h2.parc{
    font-size: 20px;
   }
    .reg {
-   	color: black;
+   	color: #ffd37c;
    	text-align: center;
     margin-bottom: : 50px;
    }
