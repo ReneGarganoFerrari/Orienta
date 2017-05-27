@@ -199,6 +199,8 @@ p{
 	font-family: "Comfortaa";
 	font-size: 40px;
 	font-weight: bold;
+	text-align: center;
+	color: #ffd37c;
 }
 
 hr.barrinha{
@@ -212,13 +214,14 @@ hr.barrinha{
 	text-align: justify;
 	font-weight: bold;
 	margin-bottom: 2%;
-	text-shadow:  0 2px 6px rgba(0,0,0,.6);
+	font-size: 30px;
+	text-shadow:  0 1px 6px black;
 }
 
 .texto_slider{
 	text-align: justify;
-	margin-bottom: 50%;
-	text-shadow:  0 2px 6px rgba(0,0,0,.6);
+	font-size: 18px;
+	text-shadow:  0 1px 6px black;
 }
 
 /* Parceiros */
