@@ -121,6 +121,7 @@ header .header-ej {
 	color: #7a1235;
 	font-family: 'Comfortaa'; /*fonte utilizada em posts na pagina do Facebook*/
 	font-size: 30px;
+  font-weight: bold;
 }
 /*-----------------------------------------------------------*/
 .hvr-grow { /*efeito do cursor sobre o botao*/
