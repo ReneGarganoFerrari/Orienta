@@ -190,7 +190,9 @@ p{
 	height: 100%;
 }
 .nossos_servicos{
+  padding-top: 1%;
   text-align: center;
+  background-color: #7a1235;
 }
 .carousel-inner {
     height: 100%;
@@ -205,23 +207,24 @@ p{
 
 hr.barrinha{
 	margin-top: -1.1%;
-  height: 4px;
-  background-color: #b8163b;
+  height: 3px;
+  background-color: #fff;
   width: 35%;
 }
 
 .tittle_slider{
-	text-align: justify;
+  text-align: center;
 	font-weight: bold;
-	margin-bottom: 2%;
-	font-size: 30px;
+	margin-bottom: 5%;
+	font-size: 34px;
 	text-shadow:  0 1px 6px black;
 }
 
 .texto_slider{
-	text-align: justify;
-	font-size: 18px;
+	text-align: center;
+	font-size: 22px;
 	text-shadow:  0 1px 6px black;
+  margin-bottom: 35%;
 }
 
 /* Parceiros */
