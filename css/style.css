@@ -197,6 +197,7 @@ p{
 .carousel-inner {
     height: 100%;
 }
+
 .tittle{
 	font-family: "Comfortaa";
 	font-size: 40px;
@@ -226,7 +227,11 @@ hr.barrinha{
 	text-shadow:  0 1px 6px black;
   margin-bottom: 35%;
 }
-
+@media screen and (max-width: 1160px){
+  p.texto_slider{
+    margin-bottom: 10%;
+  }
+}
 /* Parceiros */
 
 .parceiros{
@@ -297,6 +302,18 @@ a {
    	color: #ffd37c;
    	text-align: center;
     margin-bottom: : 50px;
+}
+.compactjr{
+  color: white;
+}
+.nome{
+  color: black;
+}
+.email{
+  color: black;
+}
+.msg{
+  color: black;
 }
 /*
 .contato1 {
