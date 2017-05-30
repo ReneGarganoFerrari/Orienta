@@ -228,7 +228,11 @@ hr.barrinha{
   margin-bottom: 35%;
 }
 @media screen and (max-width: 1160px){
+  h3.tittle_slider{
+    font-size: 30px;
+  }
   p.texto_slider{
+    font-size: 22px;
     margin-bottom: 10%;
   }
 }
