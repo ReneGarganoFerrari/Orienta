@@ -285,6 +285,11 @@ a {
 	left: 30%;
 	margin: 50px 0 0 0;
 }
+@media screen and (max-width: 991px){
+	.margem {
+		margin-top: 10px;
+	}
+}
 .sugestao {
     font-size: 30px;
 	margin: 10px 0 0 0;
