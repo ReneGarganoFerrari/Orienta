@@ -162,7 +162,7 @@ p.sn{
 	color: #b8163b;
 }
 hr.sob{
-	margin-top: -1.8%;
+	margin-top: -18px;
 	height: 4px;
 	background-color: #b8163b;
 	width: 40%;
@@ -180,6 +180,7 @@ p{
 	width: 90%;
 	font-size: 18px;
 }
+
 
 #empresa{
 	top:150px;
@@ -217,10 +218,10 @@ p{
 }
 
 hr.barrinha{
-	margin-top: -1.1%;
-  height: 3px;
-  background-color: #fff;
-  width: 35%;
+	margin-top: -12px;
+  	height: 3px;
+ 	background-color: #fff;
+  	width: 35%;
 }
 
 .tittle_slider{
@@ -235,7 +236,7 @@ hr.barrinha{
 	text-align: center;
 	font-size: 22px;
 	text-shadow:  0 1px 6px black;
-  margin-bottom: 35%;
+  	margin-bottom: 35%;
 }
 @media screen and (max-width: 1160px){
   h3.tittle_slider{
@@ -246,6 +247,29 @@ hr.barrinha{
     margin-bottom: 10%;
   }
 }
+/* faz o slider sumir em 991px */
+@media screen and (min-width: 991px){
+	.temporario1{
+			visibility: hidden;
+			display: none;
+	}
+}
+@media screen and (max-width: 991px){
+	.temporario{
+			visibility: hidden;
+			display: none;
+	}
+	.texto_slider{
+		margin-bottom: 0px;
+		color: white;
+	}
+	.tittle_slider{
+		color: white;
+	}
+	.nossos_servicos{
+		padding-bottom: 1%;
+	}
+}
 /* Parceiros */
 
 .parceiros{
@@ -253,7 +277,7 @@ hr.barrinha{
   padding-bottom: 30px;
 }
 hr.parc{
-  margin-top: -1.8%;
+  margin-top: -18px;
   height: 4px;
   background-color: #b8163b;
   width: 40%;
