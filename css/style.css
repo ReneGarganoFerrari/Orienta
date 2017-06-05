@@ -178,9 +178,9 @@ p{
 
 .botaosb{
 	width: 90%;
+	min-width: 120px;
 	font-size: 18px;
 }
-
 
 #empresa{
 	top:150px;
@@ -225,7 +225,7 @@ hr.barrinha{
 }
 
 .tittle_slider{
-  text-align: center;
+  	text-align: center;
 	font-weight: bold;
 	margin-bottom: 5%;
 	font-size: 34px;
@@ -239,35 +239,44 @@ hr.barrinha{
   	margin-bottom: 35%;
 }
 @media screen and (max-width: 1160px){
-  h3.tittle_slider{
+  .tittle_slider{
     font-size: 30px;
   }
   p.texto_slider{
-    font-size: 22px;
-    margin-bottom: 10%;
+  	font-size: 22px;
+   	margin-bottom: 10%;
   }
 }
 /* faz o slider sumir em 991px */
 @media screen and (min-width: 991px){
 	.temporario1{
-			visibility: hidden;
-			display: none;
+		visibility: hidden;
+		display: none;
 	}
 }
 @media screen and (max-width: 991px){
 	.temporario{
-			visibility: hidden;
-			display: none;
+		visibility: hidden;
+		display: none;
 	}
-	.texto_slider{
+	p.texto_slider{
 		margin-bottom: 0px;
 		color: white;
+		text-shadow: 0 0px 0px black;
+		font-size: 18px;
 	}
 	.tittle_slider{
 		color: white;
+		text-shadow: 0 0px 0px black;
+		font-size: 22px;
+		margin-bottom: 2%;
+		padding-top: 2%;
 	}
 	.nossos_servicos{
-		padding-bottom: 1%;
+		padding-bottom: 5%;
+	}
+	#empresa{
+		top: 0px;
 	}
 }
 /* Parceiros */
