@@ -145,6 +145,7 @@ header .header-ej {
 .sobrenos{
 	text-align: center;
 	padding: 60px;
+  margin-top: -3%;
 }
 
 h2.sobnos{
@@ -187,14 +188,11 @@ p{
 	color: #7a1235;
 }
 
-
 .modal{
 	color: #000000;
 	font-family: "raleway";
 	font-size:16px;
 }
-
-
 
 /* Nossos Serviços */
 .altura{
@@ -223,10 +221,10 @@ hr.barrinha{
  	background-color: #fff;
   	width: 35%;
 }
-
 .tittle_slider{
-  	text-align: center;
-	font-weight: bold;
+    text-align: center;
+  font-weight: bold;
+
 	margin-bottom: 5%;
 	font-size: 34px;
 	text-shadow:  0 1px 6px black;
@@ -242,9 +240,15 @@ hr.barrinha{
   .tittle_slider{
     font-size: 30px;
   }
+
   p.texto_slider{
   	font-size: 22px;
    	margin-bottom: 10%;
+  }
+}
+@media screen and (max-width: 1024px){
+  .sobrenos{
+    margin-top: -5%;
   }
 }
 /* faz o slider sumir em 991px */
